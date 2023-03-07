@@ -57,7 +57,7 @@ sudo apt install libsystemd-dev libpulse-dev pop-launcher libexpat1-dev libfontc
 
 They can be installed all at once with:
 ```
-sudo apt install just rustc cargo meson libdbus-1-dev libgbm-dev libglvnd-dev libwayland-dev libseat-dev libxkbcommon-dev libinput-dev libgtk-4-1 udev dbus libsystemd-dev libpulse-dev pop-launcher libexpat1-dev libfontconfig-dev libfreetype-dev lld -y
+sudo apt install just rustc cargo meson llvm clang libclang-dev libpipewire-0.3-dev libdbus-1-dev libgbm-dev libglvnd-dev libwayland-dev libseat-dev libxkbcommon-dev libinput-dev libgtk-4-1 udev dbus libsystemd-dev libpulse-dev pop-launcher libexpat1-dev libfontconfig-dev libfreetype-dev lld -y
 ```
  
 ### Testing
